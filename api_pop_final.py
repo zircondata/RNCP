@@ -5,8 +5,8 @@ import tqdm
 url_api = "https://api.insee.fr/metadonnees/V1/geo/communes?date=*&com=true"
 
 headers={
-        'Accept': 'application/json',
-        'Authorization': 'Bearer 6c9d7ee0-b3b1-3ad1-be23-54a4a9f4b564'
+        'Accept': '************',
+        'Authorization': '************************'
         }
 
 r = requests.get(url_api, headers=headers)
